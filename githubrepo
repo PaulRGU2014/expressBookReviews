@@ -1,0 +1,7 @@
+curl -s https://api.github.com/repos/paulrgu2014/expressBookReviews | jq "{full_name, fork, parent: .parent.full_name}"
+
+{
+  "full_name": "PaulRGU2014/expressBookReviews",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/expressBookReviews"
+}
